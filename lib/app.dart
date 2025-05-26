@@ -3,6 +3,7 @@ import 'package:flutter_10_batch/statefull_class.dart';
 import 'Module_11/class_1/alert/alert.dart';
 import 'Module_11/class_1/lifeCycle.dart';
 import 'Module_11/class_1/lifecyTest.dart';
+import 'Module_11/class_2/CalculatorApp.dart';
 import 'flutter_class_1.dart';
 import 'flutter_class_2.dart';
 import 'package:flutter_10_batch/from_login.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const Alert(),
+      child: const Calculatorapp(),
     );
   }
 
