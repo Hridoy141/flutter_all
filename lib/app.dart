@@ -13,6 +13,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'module 9 class 3.dart';
 import 'module_12/class_1.dart';
 import 'module_12/class_2.dart';
+import 'module_12/class_3.dart';
 import 'module_9_class_2.dart';
 import 'module_9_mediaQuery.dart';
 import 'module_9_todo.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const TodoScreen(),
+      child: const Module12Class3 (),
     );
   }
 
